@@ -1,6 +1,6 @@
-export enum InvoiceStatus{
-    noInfo = 1,
-    notificationNeeded = 2,
-    paymentDeclared = 3,
-    paymentConfirmed = 4
+export enum InvoiceStatus {
+    NO_INFO = 'NO_INFO',
+    NOTIFICATION_NEEDED = 'NOTIFICATION_NEEDED',
+    PAYMENT_DECLARED = 'PAYMENT_DECLARED',
+    PAYMENT_CONFIRMED = 'PAYMENT_CONFIRMED'
 }
